@@ -1,0 +1,164 @@
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .welcome-msg {
+        width: 800px;
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .todo-container {
+        width: 500px;
+    }
+
+    .welcome-msg {
+        width: 600px;
+        font-size: 1.2rem;
+    }
+
+    .input-area {
+        margin: 70px 0px 30px 0px;
+    }
+
+    .input-area input {
+        width: 300px;
+        padding: 10px 18px;
+        font-size: 0.8rem;
+        font-weight: 500;
+        border-radius: 18px;
+    }
+
+    .addTodo,
+    .delete {
+        font-size: 1.8rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    .noTodoMessage {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+    .todo-container {
+            width: 400px;
+        }
+    
+        .welcome-msg {
+            width: 500px;
+            font-size: 1rem;
+        }
+    
+        .input-area {
+            margin: 60px 0px 30px 0px;
+        }
+    
+        .input-area input {
+            width: 250px;
+            padding: 9px 17px;
+            font-size: 0.8rem;
+            font-weight: 400;
+            border-radius: 16px;
+        }
+    
+        .addTodo,
+        .delete {
+            font-size: 1.5rem;
+        }
+    
+        button {
+            font-size: 0.6rem;
+            font-weight: 400;
+        }
+    
+        .noTodoMessage {
+            font-size: 1rem;
+        }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 640px) {
+    .todo-container {
+        width: 300px;
+    }
+
+    .welcome-msg {
+        width: 370px;
+        font-size: 0.8rem;
+    }
+
+    .input-area {
+        margin: 40px 0px 30px 0px;
+    }
+
+    .input-area input {
+        width: 200px;
+        padding: 6px 14px;
+        font-size: 0.9rem;
+        font-weight: 300;
+        border-radius: 14px;
+    }
+        .todos {
+            font-size: 1rem;
+        }
+
+    .addTodo,
+    .delete {
+        font-size: 1.1rem;
+    }
+
+    button {
+        padding: 6px 20px;
+        font-size: 0.6rem;
+        font-weight: 200;
+    }
+
+    .noTodoMessage {
+        font-size: 0.8rem;
+    }
+}
+
+
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+    .todo-container {
+        width: 270px;
+    }
+
+    .welcome-msg {
+        width: 280px;
+        font-size: 0.8rem;
+    }
+
+    .input-area {
+        margin: 30px 0px 30px 0px;
+    }
+
+    .input-area input {
+        width: 150px;
+        padding: 5px 10px;
+        font-size: 0.8rem;
+        font-weight: 300;
+        border-radius: 12px;
+    }
+
+    .todos {
+        font-size: 0.8rem;
+    }
+
+    .addTodo,
+    .delete {
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 4px 16px;
+        font-size: 0.5rem;
+        font-weight: 200;
+    }
+
+    .noTodoMessage {
+        font-size: 0.6rem;
+    }
+}

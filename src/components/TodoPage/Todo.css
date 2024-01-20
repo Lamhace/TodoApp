@@ -1,0 +1,90 @@
+.todo-container {
+    width: 600px;
+    margin: 0px auto;
+}
+
+.welcome-msg {
+    text-align: center;
+    width: 1000px;
+    color: rgb(208, 213, 216);
+}
+
+.input-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0px 30px 0px;
+}
+
+.input-area input {
+    border: none;
+    border-bottom: 0.5px solid black;
+    background-color: #FFFFFF;
+    outline: none;
+    width: 400px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #010101;
+    border-radius: 20px;
+}
+
+.addTodo {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.delete {
+    color: #ff6f61;
+    font-size: 3rem;
+    transition: 0.4s ease-in;
+}
+
+.list-items {
+    display: flex;
+    padding-left: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+li::marker {
+    color: plum;
+    font-size: 20px;
+}
+
+.todos {
+    font-size: 2rem;
+}
+
+button {
+    outline: none;
+    padding: 10px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: rgb(202, 8, 8);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 2, 0, 0.1);
+    margin-top: 50px;
+    transition: 0.3s ease-in-out;
+    color: #FFFFFF;
+}
+
+.delete,
+.addTodo,
+button:hover {
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: red;
+}
+
+button:hover {
+    background-color: red;
+}
+
+
+.noTodoMessage {
+    color: rgb(173, 53, 53);
+    font-size: 1.5rem;
+}
