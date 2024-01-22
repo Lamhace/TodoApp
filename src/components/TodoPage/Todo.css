@@ -54,6 +54,7 @@ li::marker {
 
 .todos {
     font-size: 2rem;
+    margin-bottom: 6px;
 }
 
 button {
