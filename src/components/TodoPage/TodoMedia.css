@@ -95,8 +95,8 @@
 
     .input-area input {
         width: 250px;
-        padding: 6px 14px;
-        font-size: 0.9rem;
+        padding: 10px 14px;
+        font-size: 1.2rem;
         font-weight: 300;
         border-radius: 14px;
     }
@@ -137,8 +137,8 @@
 
     .input-area input {
         width: 180px;
-        padding: 5px 10px;
-        font-size: 0.8rem;
+        padding: 10px 10px;
+        font-size: 1.1rem;
         font-weight: 300;
         border-radius: 12px;
     }
