@@ -63,7 +63,7 @@ export default function Todo() {
             {NewTodo.map((todo, id) => {
               return (
                 <div className="list-items">
-                  <li className="todos" key={id}>{todo.text}</li>
+                 <div><li className="todos" key={id}>{todo.text}</li></div>
                   <div onClick={() => deleteTodo(todo.id)}>
                     <RiDeleteBin6Fill className="delete" />
                   </div>
